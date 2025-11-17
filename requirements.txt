@@ -1,0 +1,82 @@
+# Core LangChain packages
+langchain>=0.3.13
+langchain-core>=0.3.28
+langchain-community>=0.3.13
+langchain-chroma>=0.1.4
+langchain-text-splitters>=0.3.4
+langchain-google-genai>=1.0.3
+
+# LangGraph packages
+langgraph>=0.2.60
+langgraph-checkpoint>=2.0.9
+langgraph-sdk>=0.1.48
+langsmith>=0.2.7
+
+# Streamlit for UI
+streamlit>=1.41.1
+
+# General utilities
+numpy
+pandas
+PyYAML
+requests
+requests-oauthlib
+python-dotenv
+tqdm
+rich
+
+# HTTP / Async packages
+aiohttp>=3.11
+aiohappyeyeballs
+aiosignal
+httpx>=0.28
+httpx-sse
+websockets
+websocket-client
+
+# FastAPI / Web server
+fastapi>=0.115
+uvicorn>=0.34
+starlette
+
+# Google / OAuth
+google-auth
+googleapis-common-protos
+grpcio
+
+# OpenAI
+openai>=1.58.1
+tiktoken>=0.8.0
+tokenizers>=0.20.3
+
+# Document processing
+pypdf2
+python-docx
+openpyxl
+unstructured
+unstructured[local-inference]
+sentence-transformers  # ✅ Required for HuggingFaceEmbeddings
+
+# Other dependencies
+attrs
+dataclasses-json
+packaging
+typing-extensions
+pydantic>=2
+pydantic-settings
+pydantic_core
+orjson
+regex
+python-dateutil
+PyPika
+overrides
+mdurl
+jsonpatch
+jsonpointer
+jsonschema
+jsonschema-specifications
+importlib_metadata
+importlib_resources
+Jinja2
+MarkupSafe
+marshmallow

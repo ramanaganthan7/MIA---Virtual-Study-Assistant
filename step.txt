@@ -1,0 +1,3 @@
+conda create -p C:\Users\raman\Documents\cleardoubht\clear python=3.11 -y
+conda activate C:\Users\raman\Documents\cleardoubht\clear
+streamlit run app.py
